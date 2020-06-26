@@ -7,3 +7,4 @@ for item in lista:
 #Pode simplificar
 num = [item for item in range (5)]
 print(num)
+
