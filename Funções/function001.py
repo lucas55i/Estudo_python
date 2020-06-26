@@ -1,5 +1,8 @@
 # Estudo sobre funções
 
+#Uma função pode ter quantos comando forem necessários, todos devem estar indentados
+
+
 produtos = []
 
 
