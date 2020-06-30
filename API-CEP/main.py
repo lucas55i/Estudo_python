@@ -1,5 +1,5 @@
 import requests
-
+##Começando os estudo sobre APIs com python.
 
 print("###################")
 print("## Consulta CEP ##")
