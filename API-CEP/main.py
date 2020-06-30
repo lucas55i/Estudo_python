@@ -23,5 +23,7 @@ if 'erro' not in address_data:
     print('==> CEP ENCONTRADO <==')
 
     print('CEP: {}'.format(address_data))
+
 else:
     print('CEP invalido')
+
