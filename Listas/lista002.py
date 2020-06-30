@@ -6,4 +6,3 @@ for l in lista:
     if l %2 == 0:
         print(l)
 
-
