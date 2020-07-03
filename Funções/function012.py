@@ -13,3 +13,4 @@ print(f'Os resultados são, {f1}, {f2} e {f3}')
 
 # n = int(input('Digite um número: '))
 # print(f'O fatorial de {n} é igual a {fatorial(n)}')
+#

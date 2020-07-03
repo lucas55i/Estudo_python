@@ -10,4 +10,4 @@ r2 = soma(2, 3, 5)
 r3 = soma(6, 4, 3)
 
 print(f'Meus cáluclos deram {r1}, {r2} e {r3}.')
- 
+#

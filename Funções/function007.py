@@ -10,3 +10,4 @@ help(print)
 print(input.__doc__)
 
 # É possivel usasr direto no consele python chamando só help()
+w
