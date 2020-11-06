@@ -4,7 +4,18 @@ con = pymysql.connect(db='garagem', user='root', passwd='lucas')
 
 cursor = con.cursor()
 
-cursor.execute("INSERT INTO carros (placa, nome_dono) VALUES ('kla-2135', 'Lukinha rei delas')")
+# Inserção de qualquer pessoa pelo terminal
+placa = input('Digite a placa a ser inserida: ')
+
+if len(placa) != 8:
+    print('Placa Invalida')
+    exit()
+
+dono = input('Digite o nome do dona a ser inserido: ')
+
+
+cursor.execute(f"INSERT INTO carros (placa, nome_dono) VALUES ('{placa}', '{dono}')")
+
 
 con.commit()
 
